@@ -3,9 +3,15 @@
 /workspace.xml
 # Rider ignored files
 /contentModel.xml
+<<<<<<< HEAD
 /projectSettingsUpdater.xml
 /modules.xml
 /.idea.Parcial1.iml
+=======
+/.idea.Parcial1.iml
+/projectSettingsUpdater.xml
+/modules.xml
+>>>>>>> origin/master
 # Editor-based HTTP Client requests
 /httpRequests/
 # Datasource local storage ignored files

@@ -7,6 +7,7 @@ public class AppDbContext : DbContext
 {
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
+<<<<<<< HEAD
     public DbSet<SupportTicket> SupportTickets => Set<SupportTicket>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -35,4 +36,8 @@ public class AppDbContext : DbContext
                 .HasMaxLength(120);
         });
     }
+=======
+    public DbSet<Event> Event => Set<Event>();
+    public DbSet<Product> Product => Set<Product>();
+>>>>>>> origin/master
 }
