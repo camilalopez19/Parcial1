@@ -22,4 +22,4 @@ if (app.Environment.IsDevelopment())
 app.MapControllers();
 app.MapGet("/ping", () => Results.Ok(new { status = "ok" }));
 
-app.Run();
+app.Run();//
