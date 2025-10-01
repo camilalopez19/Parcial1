@@ -9,4 +9,5 @@ public class AppDbContext : DbContext
 
     public DbSet<Event> Event => Set<Event>();
     public DbSet<Product> Product => Set<Product>();
+    public DbSet<Ticket> Ticket => Set<Ticket>();
 }
